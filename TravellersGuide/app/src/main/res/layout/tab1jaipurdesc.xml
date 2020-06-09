@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical"
+    android:weightSum="10"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/jmainimg"
+                android:layout_width="288dp"
+                android:layout_height="195dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginRight="49dp"
+                android:paddingBottom="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/jaipur" />
+
+            <TextView
+                android:id="@+id/dtextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/jmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="198dp"
+                android:layout_marginRight="198dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="Introduction:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/goatextView2"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="Jaipur, ‘The Pink City’ is a major tourist centre of the country. The city is packed with many attractions like beautiful and glorious forts, world famous theatres, gorgeous temples and many more. As a tourist you will be awestruck with the beauty of the monuments in the city. Flamboyant and vivacious bazaars bustle with attractive stuff.Jaipur is legendary for its gemstone and gold jewelry work, fabrics, and ‘jutis or mozaries’ (traditional footwear) that possess quality are surely a cache for the shoppers. An opportunity to take along ‘the glory of the city’ as a souvenir of the visit is so amazing. " />
+
+            <TextView
+                android:id="@+id/dtextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignLeft="@+id/jmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="10dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="Places To Visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/amber"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/amberfort" />
+
+                    <ImageView
+                        android:id="@+id/jal"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jalmahal" />
+
+                    <ImageView
+                        android:id="@+id/jantar"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jantarmantar" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/gtextView10"
+                android:layout_width="175dp"
+                android:layout_height="36dp"
+                android:layout_alignLeft="@+id/jmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="197dp"
+                android:layout_marginRight="197dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="How To Reach:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gtextView11"
+                android:layout_width="264dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/jmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text=" By Air:
+The Jaipur Airport is situated at Sanganer, 7 km (domestic terminal) and 10 km (international terminal) from the main city. It has the facility of daily domestic flights to Delhi, Jodhpur, Udaipur, Aurangabad, Hyderabad, Goa, Kolkata, Chennai, Ahmedabad, Mumbai, Bangalore, Indore and Pune. Also, it has the facility of international flights through which it connects directly to Sharjah, Muscat and Dubai. Flights to Singapore and Bangkok are also available via Delhi. "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/gtextView4"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="By Road:
+Jaipur, the pink city is linked with the all the major cities of India through the network of National Highways 8, 11 and 12 to name a few. There's also a very good bus service between Jaipur and Delhi provided by Rajasthan State Road Transport Corporation (RSRTC) with the buses at about every half an hour to and from both sides. From Jaipur you can board the bus from Narayan Singh Circle or the main Sindhi Camp bus stand whereas in Delhi you can take the bus from Bikaner House on Pandara Road which is next to India Gate."
+
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/gtextView6"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="60dp"
+                android:paddingBottom="10dp"
+                android:text="By Train:Jaipur is well connected to almost every part of India through the means of Indian Railways. There are several trains which connect this city to Delhi, Mumbai, Ahmedabad, Agra, Kota, Alwar, Jodhpur, Alwar, Ajmer, Kota, Chittorgarh, Bikaner, Udaipur, Barmer, Jammu, Bikaner, Jaisalmer, Kolkata, Ludhiana, Pathankot, Haridwar, Indore, Gwalior, Bhopal, Jabalpur, Roorkee, and Kanpur. There are three main railway junctions including Jaipur, the main station; Gandhinagar and Durgapara.
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/gtextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/jmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="Best time to visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gtextView15"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/jmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="
+Travellers from India and abroad, flock in Jaipur throughout the year for tourism. It is world famous for its forts, temples, lakes, fairs and festivals. The climate of Jaipur is arid as it is a semi-desert region. Winter is the best time and season to visit Jaipur city in Rajasthan.
+"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

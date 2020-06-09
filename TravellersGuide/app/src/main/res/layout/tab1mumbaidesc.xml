@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical"
+    android:weightSum="10"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dmainimg"
+                android:layout_width="288dp"
+                android:layout_height="195dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginRight="49dp"
+                android:paddingBottom="20dp"
+                android:src="@drawable/mumbaim" />
+
+
+            <TextView
+                android:id="@+id/dtextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="199dp"
+                android:layout_marginRight="199dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="Introduction:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dtextView"
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+                android:text="
+Mumbai, formerly Bombay, is big. It’s full of dreamers and hard-labourers, starlets and gangsters, stray dogs and exotic birds, artists and servants, fisherfolk and crorepatis (millionaires), and lots and lots of people. It has India’s most prolific film industry, some of Asia’s biggest slums (as well as the world’s most expensive home) and the largest tropical forest in an urban zone. Mumbai is India’s financial powerhouse, fashion epicentre and a pulse point of religious tension." />
+            android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/dtextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="Places To Visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ban"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bandra_borli" />
+
+                    <ImageView
+                        android:id="@+id/ind"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/indiagate" />
+
+                    <ImageView
+                        android:id="@+id/nar"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/nariman" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/dtextView10"
+                android:layout_width="152dp"
+                android:layout_height="36dp"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="197dp"
+                android:layout_marginRight="197dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="How To Reach:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dtextView11"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text=" By Air:
+Mumbai’s airport is the Sahara International Airport and has many international airlines flying to Mumbai. These flights connect Mumbai to almost all the major international and domestic locations. The airport consists of two terminals, one is 30 km from the city center of Nariman point and other is 4 km from the domestic terminus at Santa Cruz. Both of these terminals have facilities such as foreign exchange bureaus, duty free shops, restaurants, left luggage sheds and tourist offices."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dtextView4"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="By Road:
+Mumbai has been provided with luxury coaches and ramshackle rattletraps by the State roadways and private operators. You can easily travel to the nearby place to Mumbai like Ahmednagar (253km), Pune (152 Km), and Shirdi (245 Km)."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dtextView6"
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="By Train: The city is the main headquarter for both the western and central railways. These rails connect Mumbai to other major cities through superfast, express and passenger trains. You can reach the Mumbai railway station through taxi, cab, bus, etc.
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dtextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="Best time to visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dtextView15"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="60dp"
+                android:text="
+The summer months of March to May see temperatures touch 35°C and are best avoided on account of both, heat and humidity. November to February is a pleasant time to be in Mumbai with neither extreme heat nor extreme rainfall. This may be the ideal time for sightseeing in the city."
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

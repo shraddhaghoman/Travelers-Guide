@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:weightSum="10"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gmainimg"
+                android:layout_width="wrap_content"
+                android:layout_height="195dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginRight="49dp"
+
+                android:src="@drawable/akbartomb" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="197dp"
+                android:layout_marginRight="197dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Introduction:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+
+                android:text="The tomb of Akbar the Great is the mausoleum of Mughal Emperor Akbar, in Sikandra. The construction of this Mughal architectural masterpiece was started in 1600 by Emperor Akbar himself.After the death of Akbar in 1605, the tomb was completed by his son Jahangir in 1613. A huge arched gateway that is decorated with calligraphic inscriptions on the white marble, leads to the tomb.On entering the gte, tourists can see a formal garden, which is built inthe charbagh style. In the heart of this garden stands the tomb of Akbar, which is made of red sandstone. This tomb has three-storeyed red sandstone minarets on the four corners of the building, which display inlay work. "
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="141dp"
+                android:layout_height="36dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Cost To Visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Foreign tourist:  110/-"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Citizens of SAARC and BIMSTEC Countries:  15/-"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Domestic/Indian/OCI Cardholder:      15/-"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Free entry to children up to 15 years:      0/-"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@id/textView5"
+                android:layout_width="104dp"
+                android:layout_height="37dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yellow"
+                android:text="Timings:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@id/textView5"
+                android:layout_width="286dp"
+                android:layout_height="48dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Daytime: sunrise to sunset every day (06:00 am to 06:00 pm)."
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="175dp"
+                android:layout_height="43dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="160dp"
+                android:layout_marginRight="160dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="How To Reach:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text=" The tomb of Akbar is located on the Mathura Road at NH-2 and lies around 8 km from the city centre. The easiest way to get to Akbar's tomb is by hiring a cab or an auto rickshaw from any part of the city. "
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Best time to visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="The tomb is open from 6 in the morning to 6:30 in the evening. The monument is at its prime beauty throughout the year. However, people choose winter, as it will be pleasing with mild climate. If you are visiting during rainy season, you will not be able to spot any animals inside the complex."
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

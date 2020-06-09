@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:weightSum="10"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="3000dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gmainimg"
+                android:layout_width="wrap_content"
+                android:layout_height="217dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginRight="49dp"
+
+                android:src="@drawable/jalmahal" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="197dp"
+                android:layout_marginRight="197dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Introduction:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+
+                android:text="The typical charm and grandeur of the Jai Mahal Palace in Jaipur often lures tourists from far off corners of the world. A striking architectural landmark, the palace is at the middle of the Man Sagar Lake. The palace was built for the purpose of recreation and pleasure. This reflects the royal taste of the Rajputs during that era. This palace was primarily used for arranging local duck shooting parties. Such parties were a regular custom of the Rajput family as they used to take part in such parties with great enthusiasm.One of the unique features of the building that provides a pleasant surprise to the visitors is the first four floors of the palace which are submerged under the waters of the Man Sagar Lake. Only the top floor of the place is visible to the onlooker. "
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="141dp"
+                android:layout_height="36dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Cost To Visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Foreign tourist:  50/-"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Domestic/Indian/OCI Cardholder:      10/-"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@id/text"
+                android:layout_width="104dp"
+                android:layout_height="37dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yellow"
+                android:text="Timings:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@id/text"
+                android:layout_width="286dp"
+                android:layout_height="48dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Daytime: 09:00 am to 06:00 pm"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="175dp"
+                android:layout_height="43dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="160dp"
+                android:layout_marginRight="160dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="How To Reach:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="It takes 22 minutes to travel from Jaipur Airport to Jal Mahal. Approximate driving distance between Jaipur Airport and Jal Mahal is 19 kms or 11.8 miles or 10.3 nautical miles . Travel time refers to the time taken if the distance is covered by a car."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+
+                android:text="It takes 27min from jailpur railway station to reach jal mahal since distance is 9.6km  via bramhapuri road."
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Best time to visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="Visiting the Jai Mahal during the rainy season is even more pleasant as it imparts a great edge to the sandstone of the palace and as a result, they become even more dazzling and beautiful.The best time to visit this place is during the month of October to March"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

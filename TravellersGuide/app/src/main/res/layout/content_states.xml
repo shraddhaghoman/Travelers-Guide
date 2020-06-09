@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme"
+    android:orientation="vertical"
+    android:weightSum="10"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="847dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/theme"
+                android:text="L e t' s  G o"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="casual" />
+
+            <ImageButton
+                android:id="@+id/manali"
+                android:layout_width="195dp"
+                android:layout_height="165dp"
+                android:layout_below="@+id/agra"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/manalim" />
+
+            <ImageButton
+                android:id="@+id/agra"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:layout_below="@+id/mumbai"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-3dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/agram" />
+
+            <ImageButton
+                android:id="@+id/mumbai"
+                android:layout_width="195dp"
+                android:layout_height="165dp"
+                android:layout_below="@+id/textView2"
+                android:scaleType="fitXY"
+                android:src="@drawable/mumbaim" />
+
+            <ImageButton
+                android:id="@+id/jaipur"
+                android:layout_width="195dp"
+                android:layout_height="165dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/jaipur" />
+
+            <ImageButton
+                android:id="@+id/dehli"
+                android:layout_width="195dp"
+                android:layout_height="165dp"
+                android:layout_alignTop="@+id/manali"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dehlim" />
+
+            <ImageButton
+                android:id="@+id/goa"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/goam" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

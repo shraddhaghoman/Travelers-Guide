@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme"
+    android:orientation="vertical"
+    tools:context=".Admin.AdminPage">
+
+    <TextView
+        android:id="@+id/userinfor"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Users"
+        android:textSize="30sp"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/userrating"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Ratings"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/cityvote"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="City Vote"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+</LinearLayout>

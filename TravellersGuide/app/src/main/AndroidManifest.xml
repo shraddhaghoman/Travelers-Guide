@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shraddha.travellersguide">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Account.login" />
+        <activity android:name=".Account.RegisterActivity" />
+        <activity android:name=".Report" />
+        <activity
+            android:name=".CityActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Help" />
+        <activity
+            android:name=".Tab_Cities.Agra.Agra_tab"
+            android:label="@string/title_activity_agra_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tab_Cities.tabDehli.Dehli_tab"
+            android:label="@string/title_activity_dehli_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tab_Cities.tabGoa.Goa_tab"
+            android:label="@string/title_activity_goa_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tab_Cities.tabJaipur.Jaipur_tab"
+            android:label="@string/title_activity_jaipur_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tab_Cities.tabManali.Manali_tab"
+            android:label="@string/title_activity_manali"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tab_Cities.tabMumbai.Mumbai_tab"
+            android:label="@string/title_activity_mumbai_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Account.Rate" />
+        <activity android:name=".VoteCity" />
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".Tab_Cities.Agra.MapsActivity"
+            android:label="maps" />
+        <activity android:name=".Tab_Cities.tabDehli.delhi1" />
+        <activity android:name=".Tab_Cities.tabDehli.qutubminar" />
+        <activity android:name=".Tab_Cities.tabDehli.rashtrapati" />
+        <activity android:name=".Tab_Cities.Agra.akbartomb" />
+        <activity android:name=".Tab_Cities.Agra.redfort" />
+        <activity android:name=".Tab_Cities.Agra.taj" />
+        <activity android:name=".Tab_Cities.tabJaipur.amberfor" />
+        <activity android:name=".Tab_Cities.tabJaipur.jalmaha" />
+        <activity android:name=".Tab_Cities.tabJaipur.jantarman" />
+        <activity android:name=".Tab_Cities.tabManali.hidimba" />
+        <activity android:name=".Tab_Cities.tabManali.rihan" />
+        <activity android:name=".Tab_Cities.tabManali.rohtan" />
+        <activity android:name=".Tab_Cities.tabGoa.calngut" />
+        <activity android:name=".Tab_Cities.tabGoa.agudaf" />
+        <activity android:name=".Tab_Cities.tabGoa.panji" />
+        <activity android:name=".Tab_Cities.tabMumbai.bandra" />
+        <activity android:name=".Tab_Cities.tabMumbai.india" />
+        <activity android:name=".Tab_Cities.tabMumbai.narim" />
+        <activity android:name=".Tab_Cities.tabMumbai.mumbaiweather" />
+        <activity android:name=".Tab_Cities.tabManali.manaliweather" />
+        <activity android:name=".Tab_Cities.tabJaipur.jaipurweather" />
+        <activity android:name=".Tab_Cities.tabGoa.goaweather" />
+        <activity android:name=".Tab_Cities.Agra.agraweather" />
+        <activity android:name=".Tab_Cities.tabDehli.delhiweather" />
+        <activity
+            android:name=".Tab_Cities.tabDehli.MapsActivitydelhi"
+            android:label="@string/title_activity_maps_activitydelhi" />
+        <activity
+            android:name=".Tab_Cities.tabGoa.MapsActivitygoa"
+            android:label="@string/title_activity_maps_activitygoa" />
+        <activity
+            android:name=".Tab_Cities.tabJaipur.MapsActivityjaipur"
+            android:label="@string/title_activity_maps_activityjaipur" />
+        <activity
+            android:name=".Tab_Cities.tabManali.MapsActivitymanali"
+            android:label="@string/title_activity_maps_activitymanali" />
+        <activity
+            android:name=".Tab_Cities.tabMumbai.MapsActivitymumbai"
+            android:label="@string/title_activity_maps_activitymumbai" />
+        <activity android:name=".Admin.AdminPage" />
+        <activity android:name=".Admin.Users" />
+        <activity android:name=".Admin.UserRating" />
+        <activity android:name=".Admin.CityVotes" />
+        <activity android:name=".Admin.AdminLogin"></activity>
+    </application>
+
+</manifest>

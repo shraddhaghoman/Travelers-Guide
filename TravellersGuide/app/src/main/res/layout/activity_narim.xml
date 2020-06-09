@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:weightSum="10"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="3000dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gmainimg"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginRight="49dp"
+
+                android:src="@drawable/nariman" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="197dp"
+                android:layout_marginRight="197dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Introduction:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+
+                android:text="Nariman Point is the southernmost tip of the Marine Drive and fourth most expensive office location in the world. Covered with many skyscrapers, Nariman Point gives a stunning impression of Manhattan and therefore, is often referred to as the 'Manhattan of Mumbai.' It houses some of India's most prestigious business headquarters and several expensive residential condos like Mittal Towers, Birla Bhavan, and Vidhya Bhavan among others. This place also boasts of a remarkable skyline, pricey residential apartments, big industrial houses and classy hotels. Famous for its stunning views of the ocean, this place is mostly visited early morning to witness the glory of the rising sun and sunsets in the evening. "
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="141dp"
+                android:layout_height="36dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Cost To Visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Free for everyone."
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@id/text"
+                android:layout_width="104dp"
+                android:layout_height="37dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yellow"
+                android:text="Timings:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@id/text"
+                android:layout_width="286dp"
+                android:layout_height="48dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="All days of the week  24/7."
+                android:textSize="15sp" />
+
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="175dp"
+                android:layout_height="43dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="160dp"
+                android:layout_marginRight="160dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="How To Reach:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="The quickest way to get from Mumbai Airport (BOM) to Nariman Point is to taxi which costs ?600 - ?750 and takes 20 min. "
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="It takes 2 minutes to travel from Churchgate Railway Station to Nariman Point. Approximate driving distance between Churchgate Railway Station and Nariman Point is 2 kms or 1.2 miles or 1.1 nautical miles . Travel time refers to the time taken if the distance is covered by a car"
+                android:textSize="15sp" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Best time to visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="Anytime would be best to visit Nariman Point, however better option would be to visit Nariman Point in morning watching the sunrise as well as in the evening watching the sunset."
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

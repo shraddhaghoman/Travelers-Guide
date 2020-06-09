@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:weightSum="10"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="3000dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/taj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginRight="49dp"
+
+                android:src="@drawable/tajmahal" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="197dp"
+                android:layout_marginRight="197dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Introduction:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+
+                android:text="One of the eight wonders of the world, Taj Mahal is an excellent example of magnificent architectural beauty. Falling in the most beautiful monuments built by the Mughals, the unbridled beauty of Taj is immaculate and sways millions of tourists every year.Taj Mahal came into existence by the then Emperor, Shah Jahan. The idea, which prompted the Emperor to come with such a beautiful Monument, was in wake of his wife’s demise. Since his wife was dear to him, he dedicated the monument in the name of her.Taj Mahal was completed in its construction in a period of 22 years. "
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="141dp"
+                android:layout_height="36dp"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Cost To Visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Foreign tourist:  1100/-"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Citizens of SAARC and BIMSTEC Countries:  540/-"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Domestic/Indian/OCI Cardholder:      50/-"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@id/textView6"
+                android:layout_width="104dp"
+                android:layout_height="37dp"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yellow"
+                android:text="Timings:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@id/textView3"
+                android:layout_width="286dp"
+                android:layout_height="48dp"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Daytime: sunrise to sunset every day (06:00 am to 06:30 pm) except Friday."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:text="Nighttime: 08:30 pm to 12:30 am."
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="175dp"
+                android:layout_height="43dp"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="160dp"
+                android:layout_marginRight="160dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="How To Reach:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text=" By Air:
+The fastest way of reaching Taj Mahal, Agra is by air. The city of Taj, Agra, has its own airport that is around 7 km from the city center. Indian Airlines operates flights to Agra on a daily basis."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+
+                android:text="By Train: There is a good network of trains connecting Agra with the rest of the country. Apart from the main railway station of Agra Cantonment, there are other two stations also, that of Raja-ki-Mandi and Agra Fort. The main trains connecting Agra with Delhi are Palace on Wheels, Shatabdi, Rajdhani, and Taj Express."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="10dp"
+                android:text="By Road:
+There are regular bus services from Agra to a number of important cities. The main bus stand of Idgah has a number of buses running for Delhi, Jaipur, Mathura, Fatehpur-Sikri, etc. if you are coming from Delhi to Agra. you can hire Delhi to Agra Taxi on specail discounts. "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+
+                android:text="Best time to visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/taj"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="70dp"
+                android:text="The Taj Mahal is a dynamic image with different beauty as the sunlight alters its color during the day, so technically you can make a visit anytime of the day.
+
+However, sunrise is the best time as the monument is like a blooming flower when the twilight gilds it with pink color. Moreover, if you visit the Taj Mahal in the early morning, you can not only avoid the heat but also the crowds. For those people in pursuit of some perfect shots and don’t want to wait too long, getting up earlier can be very rewarding."
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

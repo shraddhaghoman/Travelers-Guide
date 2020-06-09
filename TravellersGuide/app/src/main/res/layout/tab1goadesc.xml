@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical"
+    android:weightSum="10"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dmainimg"
+                android:layout_width="288dp"
+                android:layout_height="195dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginRight="49dp"
+                android:paddingBottom="20dp"
+                android:src="@drawable/goam" />
+
+
+            <TextView
+                android:id="@+id/dtextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="199dp"
+                android:layout_marginRight="199dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="Introduction:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dtextView"
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+                android:text="No other destination can compete with the 'Pearl of the Orient' in terms of natural beauty and tranquil beaches that collaboratively provide you with an out of the world holiday experience. Frequently known as 'Queen of the Beaches', Goa is located on the western coast of India, surrounded by Maharashtra in the north, Karnataka in the east and south, and the Arabian Sea in the west. While visiting Goa, you can see the factor of 'Unity in vast Diversity' in festivals, food, outfits and every aspect of social life here." />
+
+            <TextView
+                android:id="@+id/dtextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="Places To Visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/calan"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/calangute" />
+
+                    <ImageView
+                        android:id="@+id/aguda"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/aguadafort" />
+
+                    <ImageView
+                        android:id="@+id/pan"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/panaji" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/dtextView10"
+                android:layout_width="152dp"
+                android:layout_height="36dp"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="197dp"
+                android:layout_marginRight="197dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="How To Reach:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dtextView11"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text=" By Air:
+If you are coming to Goa by airways then the nearest international airport is located at Dabolim. Dabolim main airport is situated at a distance of almost 29 kilometers away from Panaji. This international airport is well connected with the major domestic cities as well as international major cities in U.K. and Germany as well."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dtextView4"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:text="By Road:
+Travelers can also reach Goa through roadways as there are n numbers of buses offer their services to travelers. The nearest bus stand is Kadamba bus stand of Panaji which is considered as the main bus station. Even Goa has its own bus service that connects major cities in and out of the state which makes how to reach Goa very easy."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dtextView6"
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="By Train:Via railways, it is quite easy to reach Goa as the major railway stations in Goa are located in Margao. The main railway station is known as Madgaon and Vasco-da-gama. These railway stations are well linked with Mumbai and then other major parts of the country as well.
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dtextView12"
+                android:layout_width="144dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="20dp"
+                android:alpha="0.7"
+                android:background="@drawable/yellow"
+                android:paddingBottom="10dp"
+                android:text="Best time to visit:"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dtextView15"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/dmainimg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="50dp"
+                android:text="
+India's favourite party destination has been blessed with some beautifully well-defined seasons. There are 4 distinct phases to the Goa weather - summer, monsoons, post-monsoon summer, and then finally, winter. Tourist season is generally during winter, because most westerners find the famous Goan sun a tad too heavy duty for their comfort in summer! The best time to visit Goa is between November and March when the Goa weather is beautifully balmy and clear with a cool sea breeze blowing through."
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
